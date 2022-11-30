@@ -34,5 +34,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "AMAA Project.",
+  "main": "index.js",
+  "repository": "https://github.com/neshmasood/amaa_payment",
+  "author": "Nesh",
+  "keywords": [],
+  "license": "ISC",
+  "workspaces": [
+    "client",
+    "server",
+    "packages/*"
+  ]
 }
